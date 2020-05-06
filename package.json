@@ -1,0 +1,22 @@
+{
+  "name": "vue-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NomanMunir/vue-express.git"
+  },
+  "keywords": [
+    "vue-express"
+  ],
+  "author": "Noman Munir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NomanMunir/vue-express/issues"
+  },
+  "homepage": "https://github.com/NomanMunir/vue-express#readme"
+}
