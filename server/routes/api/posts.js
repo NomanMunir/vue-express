@@ -32,12 +32,8 @@ router.delete('/:id',
 
 
 async function loadPostCollection() {
-
-    // Connection URL
-    const url = 'mongodb+srv://abc123:Noman123@cluster0-vs4y9.mongodb.net/vue-express?retryWrites=true&w=majority';
-
     // Use connect method to connect to the Server
-    const client = await mongodb.MongoClient.connect(url, {
+    const client = await mongodb.MongoClient.connect(process.env.DB_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
